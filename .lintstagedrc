@@ -1,0 +1,8 @@
+{
+  "*.{js,ts,tsx, jsx}": [
+    "eslint --ext js,jsx,ts,tsx src"
+  ],
+  "*.{json,md,html,js,jsx,ts,tsx}": [
+    "prettier --write src/"
+  ]
+}
